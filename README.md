@@ -7,6 +7,14 @@ NOTE: DO NOT USE THIS FOR PRODUCTION USE CASES.
 * this is using rancher image due an issue while using the old one.
  image: rancher/metrics-server:v0.4.1
 ```
+
+pi@k8-pi-master1:~ (⎈ |k8s-pi:kube-system) $ git clone https://github.com/kodekloudhub/kubernetes-metrics-server.git
+...
+...
+pi@k8-pi-master1:~ (⎈ |k8s-pi:kube-system) $ kubectl apply -f kubernetes-metrics-server/
+...
+...
+
 pi@k8-pi-master1:~ (⎈ |k8s-pi:kube-system) $ kubectl top nodes
 NAME                   CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
 k8-pi-master1          494m         12%    1567Mi          20%       
