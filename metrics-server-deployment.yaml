@@ -29,7 +29,8 @@ spec:
         emptyDir: {}
       containers:
       - name: metrics-server
-        image: k8s.gcr.io/metrics-server-amd64:v0.3.1
+        image: rancher/metrics-server:v0.4.1
+        #image: k8s.gcr.io/metrics-server-amd64:v0.3.1
         command:
           - /metrics-server
           - --metric-resolution=5s
