@@ -1,9 +1,13 @@
-# kubernetes-metrics-server
+# kubernetes-metrics-server - For Raspberry pi K8s cluster
+Found this useful repo and forked it, added few things
+
+Original -----
 Development/Learning environment deployment of metrics-server
 
 NOTE: DO NOT USE THIS FOR PRODUCTION USE CASES.
  This is an insecure deployment for quick deployment in a learning environment.
 
+Added --------
 * this is using rancher image due an issue while using the old one.
  image: rancher/metrics-server:v0.4.1  
  * added  temp directory for container under commnad section
