@@ -5,7 +5,9 @@ NOTE: DO NOT USE THIS FOR PRODUCTION USE CASES.
  This is an insecure deployment for quick deployment in a learning environment.
 
 * this is using rancher image due an issue while using the old one.
- image: rancher/metrics-server:v0.4.1
+ image: rancher/metrics-server:v0.4.1  
+ * added  temp directory for container under commnad section
+ - --cert-dir=/tmp
 ```
 
 pi@k8-pi-master1:~ (⎈ |k8s-pi:kube-system) $ git clone https://github.com/kodekloudhub/kubernetes-metrics-server.git
