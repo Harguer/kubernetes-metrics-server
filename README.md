@@ -14,7 +14,7 @@ Added --------
  - --cert-dir=/tmp
 ```
 
-pi@k8-pi-master1:~ (⎈ |k8s-pi:kube-system) $ git clone https://github.com/kodekloudhub/kubernetes-metrics-server.git
+pi@k8-pi-master1:~ (⎈ |k8s-pi:kube-system) $ git clone https://github.com/Harguer/kubernetes-metrics-server.git
 ...
 ...
 pi@k8-pi-master1:~ (⎈ |k8s-pi:kube-system) $ kubectl apply -f kubernetes-metrics-server/
