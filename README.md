@@ -8,7 +8,7 @@ NOTE: DO NOT USE THIS FOR PRODUCTION USE CASES.
  This is an insecure deployment for quick deployment in a learning environment.
 
 Added --------   
-* this is using rancher image due an issue while using the old one.
+* this is using rancher image due an issue while using the default image.
  image: rancher/metrics-server:v0.4.1  
  * added  temp directory for container under commnad section
  - --cert-dir=/tmp
